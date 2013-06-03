@@ -1,0 +1,3 @@
+* Add 100% mutation covered specs
+* Bring this lib to the same quality level like other dm2 stuff
+* Extract boolean logic from veritas into axiom-logic and use instead of Matchers.
