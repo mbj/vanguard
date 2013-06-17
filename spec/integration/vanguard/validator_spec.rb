@@ -34,6 +34,10 @@ describe Vanguard do
       subject.on(:name).empty?.should be(true)
       subject.on(:amount).empty?.should be(true)
     end
+
+    it '#output contains the valid resource' do
+      subject.output.should be(object)
+    end
   end
 
   describe 'invalid attributes' do
@@ -44,6 +48,10 @@ describe Vanguard do
 
     it 'violations on valid attributes are empty' do
       subject.on(:amount).empty?.should be(true)
+    end
+
+    it '#output returns the violations' do
+      subject.output.should be(subject.violations)
     end
   end
 end
