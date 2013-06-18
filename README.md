@@ -6,13 +6,14 @@ This library provides external validations for any Ruby class.
 History:
 --------
 
-It originates from [emmanuels vanguard repository](https://github.com/emmanuel/vanguard)
+It originates from [emmanuels aequitas repository](https://github.com/emmanuel/vanguard)
 with the following changes:
 
 * Only support for external validators
 * Use composable algebra for internals
 * Will allow serialization to javascript for client side validation (not implemented)
 * No contextual validators anymore (use additional external validators)
+* 100% code rewrite
 * Use [equalizer](https://github.com/dkubb/equalizer) and [adamantium](https://github.com/dkubb/adamantium) where possible.
 
 ## Specifying Validations
