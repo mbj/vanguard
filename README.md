@@ -48,11 +48,6 @@ result.violations # => #<Set: {<Vanguard:::Violation ....>}>
 
 See `Vanguard::Macros` to learn about the complete collection of validation rules available.
 
-## Validating
-
-Vanguard validations may be manually evaluated against a resource using the
-`Vanguard::Result#valid?` method, which will return `true` if the resource is valid, and `false` if it is invalid.
-
 ## Credits
 
 * Markus Schirp [mbj](https://github.com/mbj)
@@ -64,6 +59,8 @@ If an instance fails one or more validation rules, `Vanguard::Violation` instanc
 will populate the `Vanguard::ViolationSet` object that is available through
 the `Vanguard::Result#violations` method.
 
+Vanguard currently has no support for generating human readable violation messages!
+
 For example:
 
 ```ruby
@@ -72,12 +69,10 @@ if result.valid?
   # my_account is valid and can be saved
 else
   result.violations.each do |e|
-    puts e
+    do_something_with(e)
   end
 end
 ```
-
-See `Vanguard::ViolationSet` for all you can do with the `#violations` method.
 
 ##Contextual Validation
 
