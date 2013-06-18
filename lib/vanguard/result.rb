@@ -20,6 +20,8 @@ module Vanguard
       violations.empty?
     end
 
+    alias_method :success?, :valid?
+
     # Return violations for resource
     #
     # @param [Resource] resource
@@ -32,6 +34,17 @@ module Vanguard
       end
     end
     memoize :violations
+
+    # The validation output
+    #
+    # @return [Object, Set<Violation>]
+    #   the valid resource, or a set of violations
+    #
+    # @api private
+    #
+    def output
+      valid? ? resource : violations
+    end
 
     # Return violations on attribute name
     #
