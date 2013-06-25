@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency('backports',           [ '~> 3.0', '>= 3.0.3' ])
   s.add_dependency('anima',               '~> 0.0.6')
-  s.add_dependency('adamantium',          '~> 0.0.7')
+  s.add_dependency('adamantium',          '~> 0.0.8')
   s.add_dependency('equalizer',           '~> 0.0.5')
   s.add_dependency('abstract_type',       '~> 0.0.5')
   s.add_dependency('descendants_tracker', '~> 0.0.1')
