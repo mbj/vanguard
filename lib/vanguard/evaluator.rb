@@ -44,7 +44,7 @@ module Vanguard
     memoize :value
 
     # Return violation
-    # 
+    #
     # @return [Violation]
     #
     # @api private

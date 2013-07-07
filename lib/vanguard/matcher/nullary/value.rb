@@ -6,7 +6,7 @@ module Vanguard
       #
       # TODO: Move somehere else
       #
-      module Value 
+      module Value
 
         # Build value matcher
         #

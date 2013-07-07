@@ -42,7 +42,7 @@ module Vanguard
 
     private
 
-      # Initialize object 
+      # Initialize object
       #
       # @param [Class] klass
       # @param [Enumerable<Object>] arguments

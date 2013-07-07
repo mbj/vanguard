@@ -29,7 +29,7 @@ module Vanguard
 
           register :validates_primitive_of
         end
-      end 
-    end 
+      end
+    end
   end
 end

@@ -37,7 +37,7 @@ module Vanguard
         self
       end
 
-      # Return validator 
+      # Return validator
       #
       # @return [Validator]
       #

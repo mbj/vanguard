@@ -5,7 +5,7 @@ module Vanguard
       # A matcher that delegates to block
       class Proc < self
         include Equalizer.new(:block)
-        
+
         # Return block
         #
         # @return [Proc]
@@ -13,7 +13,7 @@ module Vanguard
         # @api private
         #
         attr_reader :block
-        
+
         # Test if value matches
         #
         # @return [true]

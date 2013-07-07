@@ -14,7 +14,7 @@ module Vanguard
         #
         attr_reader :primitive
 
-        # Test if value is kind of primitive 
+        # Test if value is kind of primitive
         #
         # @return [true]
         #   if value is kind of primitive

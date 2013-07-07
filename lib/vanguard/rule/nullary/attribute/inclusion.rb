@@ -16,9 +16,9 @@ module Vanguard
           private
 
             # Return matcher
-            # 
+            #
             # @return [Matcher]
-            # 
+            #
             # @api private
             #
             def matcher
@@ -55,8 +55,8 @@ module Vanguard
 
             register :validates_acceptance_of
           end
-        end 
-      end 
-    end 
+        end
+      end
+    end
   end
 end

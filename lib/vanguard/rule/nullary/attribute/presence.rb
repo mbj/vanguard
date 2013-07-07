@@ -26,7 +26,7 @@ module Vanguard
             super
           end
         end
-      end 
-    end 
+      end
+    end
   end
 end

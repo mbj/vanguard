@@ -1,7 +1,7 @@
 module Vanguard
   class Rule
     # Abstract base class for nullary rules
-    class Nullary 
+    class Nullary
 
       class Attribute < self
         include Equalizer.new(:attribute_name, :matcher)
@@ -38,7 +38,7 @@ module Vanguard
         # Default evaluator
         class Evaluator < Vanguard::Evaluator
           # Test if value is valid
-          # 
+          #
           # @return [true]
           #   if value is matched by matcher
           #

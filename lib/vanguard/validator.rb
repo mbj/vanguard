@@ -1,7 +1,7 @@
 module Vanguard
   # Validator compsed from many rules
   class Validator
-    include Adamantium, Enumerable 
+    include Adamantium, Enumerable
 
     # Run validator on resource
     #

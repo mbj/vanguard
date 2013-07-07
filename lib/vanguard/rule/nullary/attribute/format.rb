@@ -39,8 +39,8 @@ module Vanguard
 
           register :validates_format_of
 
-        end 
-      end 
-    end 
+        end
+      end
+    end
   end
 end

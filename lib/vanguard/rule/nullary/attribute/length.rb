@@ -152,7 +152,7 @@ module Vanguard
 
             # Test if value is valid
             #
-            # @return [true] 
+            # @return [true]
             #   if value is valid
             #
             # @return [false]
@@ -177,8 +177,8 @@ module Vanguard
             memoize :length
 
           end
-        end 
-      end 
-    end 
+        end
+      end
+    end
   end
 end

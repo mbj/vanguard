@@ -4,7 +4,7 @@ module Vanguard
     # Abstract base class for unary matchers
     class Unary < self
       include AbstractType, Equalizer.new(:operand)
-      
+
       # Return operand
       #
       # @return [Matcher]

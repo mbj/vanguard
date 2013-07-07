@@ -25,7 +25,7 @@ module Vanguard
 
       # Return arguments
       #
-      # @return [Enumerable<Object>] 
+      # @return [Enumerable<Object>]
       #
       # @api private
       #
@@ -64,7 +64,7 @@ module Vanguard
       end
       memoize :rules
 
-      # Return allowed options 
+      # Return allowed options
       #
       # @return [Enumerable<Symbol>]
       #
@@ -74,14 +74,14 @@ module Vanguard
         self.class::OPTIONS
       end
 
-      # Return required options 
+      # Return required options
       #
       # @return [Enumerable<Symbol>]
       #
       # @api private
       #
       def required_options
-        self.class::REQUIRED_OPTIONS 
+        self.class::REQUIRED_OPTIONS
       end
 
       # Run builder

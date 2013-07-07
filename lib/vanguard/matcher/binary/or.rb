@@ -1,6 +1,6 @@
 module Vanguard
   class Matcher
-    class Binary 
+    class Binary
       # Boolean or connector
       class OR < self
         # Test if value matches left or right

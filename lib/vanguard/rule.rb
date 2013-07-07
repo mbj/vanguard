@@ -17,10 +17,10 @@ module Vanguard
     end
 
     # Return evaluator for resource
-    # 
+    #
     # @param [Object] resource
     #   the target object to be validated
-    # 
+    #
     # @return [Evaluator]
     #
     # @api private

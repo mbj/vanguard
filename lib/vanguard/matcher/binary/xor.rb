@@ -1,6 +1,6 @@
 module Vanguard
   class Matcher
-    class Binary 
+    class Binary
       # Boolean xor connector
       class XOR < self
 

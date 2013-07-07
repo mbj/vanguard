@@ -11,9 +11,9 @@ module Vanguard
           register :validates_absence_of
           MATCHER = Matcher::Nullary::BLANK
 
-        end 
+        end
 
-      end 
-    end 
+      end
+    end
   end
 end

@@ -21,7 +21,7 @@ module Vanguard
 
         # Return attribute name
         #
-        # @return [Symbol] 
+        # @return [Symbol]
         #
         # @api private
         #

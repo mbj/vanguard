@@ -8,7 +8,7 @@ module Vanguard
     # Return object validated in this violation
     #
     # @return [Object]
-    # 
+    #
     # @api private
     #
     attr_reader :resource
@@ -66,7 +66,7 @@ module Vanguard
   private
 
     # Initialize object
-    # 
+    #
     # @param [Resource] resource
     #   the validated object
     #

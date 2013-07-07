@@ -46,7 +46,7 @@ module Vanguard
         #
         # @param [Enumerable<Object>] arguments
         #
-        # @return [Enumerable<Rule>] 
+        # @return [Enumerable<Rule>]
         #
         # @api private
         #

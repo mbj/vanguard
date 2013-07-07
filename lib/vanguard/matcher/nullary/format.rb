@@ -92,7 +92,7 @@ module Vanguard
         end.freeze
 
         # Regex from http://www.igvita.com/2006/09/07/validating-url-in-ruby-on-rails/
-        URL_REGEXP = 
+        URL_REGEXP =
             /(^$)|(^(http|https):\/\/[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}((\:[0-9]{1,5})?\/?.*)?$)/ix.freeze
 
         EMAIL_ADDRESS = Regexp.new(EMAIL_ADDRESS_REGEXP)
@@ -109,7 +109,7 @@ module Vanguard
         def self.build(value)
           case value
           when :email_address
-            EMAIL_ADDRESS 
+            EMAIL_ADDRESS
           when :url
             URL
           when ::Regexp

@@ -1,6 +1,6 @@
 module Vanguard
   class Matcher
-    class Nullary 
+    class Nullary
       # Equality matcher
       class Equality < self
         include Equalizer.new(:value)
@@ -18,7 +18,7 @@ module Vanguard
         # @param [Object] value
         #
         # @return [true]
-        # 
+        #
         # @return [false]
         #
         # @api private
