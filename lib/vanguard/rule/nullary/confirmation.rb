@@ -52,7 +52,7 @@ module Vanguard
             end
 
             # Confirm attribute from block
-            class Block 
+            class Block
 
               # Return confirmation attribute name
               #
@@ -85,13 +85,13 @@ module Vanguard
 
               # Return confirmation attribute name
               #
-              # @param [Symbol] attribute_name
+              # @param [Symbol] _attribute_name
               #
               # @return [Symbol]
               #
               # @api private
               #
-              def confirmation_attribute_name(attribute_name)
+              def confirmation_attribute_name(_attribute_name)
                 @confirmation_attribute_name
               end
 
@@ -113,7 +113,7 @@ module Vanguard
 
         private
 
-          # Return rule 
+          # Return rule
           #
           # @param [Symbol] attribute_name
           #
@@ -130,7 +130,7 @@ module Vanguard
           # @api private
           #
           def confirm_option
-            option = options.fetch(:confirm) do 
+            option = options.fetch(:confirm) do
               return Confirm::DEFAULT
             end
 
@@ -167,9 +167,9 @@ module Vanguard
         # @api private
         #
         def initialize(attribute_name, confirmation_attribute_name)
-          @attribute_name, 
-          @confirmation_attribute_name = 
-            attribute_name, 
+          @attribute_name,
+          @confirmation_attribute_name =
+            attribute_name,
             confirmation_attribute_name
         end
 
@@ -204,7 +204,7 @@ module Vanguard
           memoize :confirmation_value
         end
 
-      end 
-    end 
-  end 
+      end
+    end
+  end
 end
