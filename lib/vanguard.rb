@@ -1,7 +1,6 @@
 # -*- encoding: utf-8 -*-
 
 require 'date'
-require 'backports'
 require 'bigdecimal'
 require 'bigdecimal/util'
 require 'forwardable'
@@ -41,7 +40,7 @@ module Vanguard
     self
   end
 
-end 
+end
 
 require 'vanguard/support/blank'
 require 'vanguard/evaluator'
