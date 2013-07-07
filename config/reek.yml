@@ -7,7 +7,7 @@ UncommunicativeParameterName:
   - !ruby/regexp /^.$/
   - !ruby/regexp /[0-9]$/
   - !ruby/regexp /[A-Z]/
-LargeClass:
+TooManyMethods:
   max_methods: 10 # Todo decrease to 10
   exclude: []
   enabled: true
@@ -21,8 +21,8 @@ UncommunicativeMethodName:
   - !ruby/regexp /[0-9]$/
   - !ruby/regexp /[A-Z]/
 LongParameterList:
-  max_params: 2 
-  exclude: 
+  max_params: 2
+  exclude:
   - Vanguard::Builder::Nullary#initialize # 3 Parameters, fix this!
   enabled: true
   overrides: {}
@@ -50,21 +50,21 @@ NestedIterators:
   exclude: []
   enabled: true
   max_allowed_nesting: 1
-LongMethod:
-  max_statements: 8 
+TooManyStatements:
+  max_statements: 8
   exclude: []
   enabled: true
-Duplication:
+DuplicateMethodCall:
   allow_calls: []
-  exclude: 
+  exclude:
   - Vanguard#self.blank
   enabled: true
-  max_calls: 1 
+  max_calls: 1
 UtilityFunction:
-  max_helper_calls: 0 
-  exclude: 
+  max_helper_calls: 0
+  exclude:
   - Vanguard::Validator#add # TODO fix false positive
-  - Vanguard::Matcher::Nullary#matches? 
+  - Vanguard::Matcher::Nullary#matches?
   enabled: true
 Attribute:
   exclude: []
@@ -77,16 +77,16 @@ UncommunicativeVariableName:
   - !ruby/regexp /^.$/
   - !ruby/regexp /[0-9]$/
   - !ruby/regexp /[A-Z]/
-SimulatedPolymorphism:
+RepeatedConditional:
   exclude: []
   enabled: true
-  max_ifs: 1 
+  max_ifs: 1
 DataClump:
   exclude: []
   enabled: true
-  max_copies: 2 
-  min_clump_size: 2 
-ControlCouple:
+  max_copies: 2
+  min_clump_size: 2
+ControlParameter:
   exclude: []
   enabled: true
 LongYieldList:
