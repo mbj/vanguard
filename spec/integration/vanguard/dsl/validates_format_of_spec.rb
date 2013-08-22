@@ -4,7 +4,7 @@ describe Vanguard::DSL, '#validates_format_of' do
   include Spec::Shared::DSL
 
   describe 'with a Proc' do
-    let(:attribute_value) { mock }
+    let(:attribute_value) { double }
 
     before do
       builder.validates_format_of attribute_name, :format => lambda { |value| proc_return }
