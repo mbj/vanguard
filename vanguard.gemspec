@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name        = 'vanguard'
-  s.version     = '0.0.3'
+  s.version     = '0.0.4'
   s.authors     = ['Markus Schirp']
   s.email       = ['mbj@schirp-dso.com']
   s.homepage    = 'https://github.com/mbj/vanguard'
